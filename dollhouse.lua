@@ -72,20 +72,27 @@ __ = {
     Settings = {
         WhitelistedUsers = {"R_ZPP", "NightmareBot_1", "NightmareBot_2", "NightmareBot_5", "NightmareBot_7", "NightmareBot_9"},
         RandomMessages = {
-            "can't believe the devs thought this was foolproof | join 4 whitelist g/u6FqTxRYE9",
-            "dollhouse out here making moves, gg to the 'anti' lol | join 4 whitelist g/u6FqTxRYE9",
-            "newest 'security' update really boosting our stats 😂 | join 4 whitelist g/u6FqTxRYE9",
-            "another day, another 'patch' bypassed... | join 4 whitelist g/u6FqTxRYE9",
-            "dollhouse keeps winning, meanwhile the filter's sleeping | join 4 whitelist g/u6FqTxRYE9",
-            "if 'unhackable' was real, we wouldn't be here, right? | join 4 whitelist g/u6FqTxRYE9",
-            "anticheat be on coffee break again lol | join 4 whitelist g/u6FqTxRYE9",
-            "devs say patched, we say game on 🕹️ | join 4 whitelist g/u6FqTxRYE9",
-            "dollhouse vibes: maxed stats, 'protection' be like nah | join 4 whitelist g/u6FqTxRYE9",
-            "fun fact: the devs thought they'd outsmart us | join 4 whitelist g/u6FqTxRYE9",
-            "imagine if the devs got a low taper fade | join 4 whitelist g/u6FqTxRYE9",
-            "nightmare runs dollhouse | join 4 whitelist g/u6FqTxRYE9",
-            "me when bypassed hyperion :3 | join 4 whitelist g/u6FqTxRYE9"
-        },
+            "this dollhouse update is gas ngl | join for whitelist g/u6FqTxRYE9 | yD4gB1",
+            "can't believe the devs thought this was secure | join for whitelist g/u6FqTxRYE9 | jQ8hK3",
+            "dollhouse keeps getting better while they sleep | join for whitelist g/u6FqTxRYE9 | tZ2mL6",
+            "another day another patch we just bypassed | join for whitelist g/u6FqTxRYE9 | xR5dT7",
+            "dollhouse vibes are unmatched right now | join for whitelist g/u6FqTxRYE9 | sH3pN9",
+            "if they really think we are done they are wrong | join for whitelist g/u6FqTxRYE9 | nV8jP2",
+            "the devs need to step it up for real | join for whitelist g/u6FqTxRYE9 | kB4wM1",
+            "another patch just means more fun for us | join for whitelist g/u6FqTxRYE9 | vF9zQ5",
+            "everyone is talking but we are still winning | join for whitelist g/u6FqTxRYE9 | mJ1hG8",
+            "dollhouse is the place to be right now | join for whitelist g/u6FqTxRYE9 | fT6nX3",
+            "every update just makes it easier for us | join for whitelist g/u6FqTxRYE9 | zE7kY2",
+            "the hype around dollhouse is unreal | join for whitelist g/u6FqTxRYE9 | gL5jF4",
+            "still going strong while others are stuck | join for whitelist g/u6FqTxRYE9 | hP3mJ8",
+            "i love how we keep proving them wrong | join for whitelist g/u6FqTxRYE9 | bK2qV7",
+            "dollhouse is basically our playground now | join for whitelist g/u6FqTxRYE9 | eN8hT1",
+            "the devs are always one step behind us | join for whitelist g/u6FqTxRYE9 | wS6fY5",
+            "waiting for the next update to flex even harder | join for whitelist g/u6FqTxRYE9 | aR9mG2",
+            "they think they can catch us but they can't | join for whitelist g/u6FqTxRYE9 | jH5dN8",
+            "just vibing while they try to keep up | join for whitelist g/u6FqTxRYE9 | cX4pL1",
+            "dollhouse is thriving while the rest are struggling | join for whitelist g/u6FqTxRYE9 | pF8tJ3"
+        },                
         DollhouseUsername = gplr("random").Name,
         DollhouseMaxLoops = 30,
         DollhouseLoops = 0
@@ -223,7 +230,7 @@ function dollhouse(str)
             if __.Settings.DollhouseLoops == __.Settings.DollhouseMaxLoops then
                 local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/z7rab/nightmare.cc/main/Modules/ServerHopModule.lua"))()
                 module:Teleport(game.PlaceId)
-                queue_on_teleport(``)
+                queue_on_teleport(`https://raw.githubusercontent.com/7rabz/nodejs/refs/heads/main/dollhouse.lua`)
             end
 
             for i,v in pairs(__.Settings.WhitelistedUsers) do
@@ -241,7 +248,7 @@ function dollhouse(str)
             bang(__.Settings.DollhouseUsername, 3)
             SendAllServiceMSG(randommsg, true)
 
-            task.wait(5)
+            task.wait(7)
 
             __.Settings.DollhouseLoops = __.Settings.DollhouseLoops + 1
             unbang()
